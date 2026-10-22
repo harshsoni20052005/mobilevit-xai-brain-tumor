@@ -1,0 +1,16 @@
+# Ignore MRI image data
+dataset/Testing/**
+dataset/Training/**
+!dataset/Testing/.gitkeep
+!dataset/Training/.gitkeep
+
+# Ignore large model weights
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Python caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/

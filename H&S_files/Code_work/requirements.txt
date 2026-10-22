@@ -1,0 +1,11 @@
+timm==0.9.12
+grad-cam
+numpy
+pandas
+scikit-learn
+opencv-python
+matplotlib
+seaborn
+Pillow
+tqdm
+gradio

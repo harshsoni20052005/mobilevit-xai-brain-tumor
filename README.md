@@ -5,13 +5,15 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An end-to-end neuro-oncological diagnostic system integrating a lightweight **MobileViT** hybrid architecture with a novel **Dual-Level Fused Explainable AI (XAI)** framework[cite: 6]. By combining early convolutional layers for fine local edge detection with deep Vision Transformer blocks for global brain cavity context, the model achieves high classification accuracy with minimal computational overhead[cite: 6, 7]. Grad-CAM heatmaps from multi-depth layers are mathematically fused to produce precise, stable, and clinically verifiable tumor boundary visualizations deployed via an interactive Streamlit application[cite: 6, 7, 8].
+An end-to-end neuro-oncological diagnostic system integrating a lightweight **MobileViT** hybrid architecture with a novel **Dual-Level Fused Explainable AI (XAI)** framework. By combining early convolutional layers for fine local edge detection with deep Vision Transformer blocks for global brain cavity context, the model achieves high classification accuracy with minimal computational overhead[cite: 6, 7]. Grad-CAM heatmaps from multi-depth layers are mathematically fused to produce precise, stable, and clinically verifiable tumor boundary visualizations deployed via an interactive Streamlit application[cite: 6, 7, 8].
 
 ---
 
-## Author & Affiliation
+## Authors & Affiliation
 
 - **Harsh Soni** ([harsh.soni20@yahoo.com](mailto:harsh.soni20@yahoo.com)) – *Department of Computer Science, Netaji Subhas University of Technology, Dwarka, New Delhi, India*[cite: 6]
+- **Samarth Ruhela** ([samarthruh21@gmail.com](mailto:samarthruh21@gmail.com)) – *Department of Computer Science, Netaji Subhas University of Technology, Dwarka, New Delhi, India*[cite: 6]
+- **Anubhav Chauhan** ([anubhav.chauhan.ug23@nsut.ac.in](mailto:anubhav.chauhan.ug23@nsut.ac.in)) – *Department of Computer Science, Netaji Subhas University of Technology, Dwarka, New Delhi, India*[cite: 6]
 
 ---
 
@@ -67,9 +69,6 @@ $$\mathcal{L}_{\text{Fused}} = \text{ReLU}\left(\beta \sum_{k} w_{k}^{\text{cnn}
 ## Repository Structure
 
 ```text
-├── dataset/
-│   ├── Testing/            # Test split (glioma, meningioma, notumor, pituitary)
-│   └── Training/           # Train split (glioma, meningioma, notumor, pituitary)
 ├── H&S_files/
 │   ├── Code_work/          # Model architecture, training scripts, & Streamlit app
 │   └── h&s_report.pdf      # Complete academic research paper
